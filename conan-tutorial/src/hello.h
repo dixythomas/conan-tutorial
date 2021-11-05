@@ -1,9 +1,6 @@
-#pragma once
+#ifndef HELLO_WORLD_LIB_LIBRARY_H
+#define HELLO_WORLD_LIB_LIBRARY_H
 
-#ifdef WIN32
-  #define HELLO_EXPORT __declspec(dllexport)
-#else
-  #define HELLO_EXPORT
-#endif
+void hello();
 
-HELLO_EXPORT void hello();
+#endif //HELLO_WORLD_LIB_LIBRARY_H

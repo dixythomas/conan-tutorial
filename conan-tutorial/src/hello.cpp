@@ -1,10 +1,7 @@
-#include <iostream>
-#include "hello.h"
+#include "library.h"
 
-void hello(){
-    #ifdef NDEBUG
-    std::cout << "Hello World Release!" <<std::endl;
-    #else
-    std::cout << "Hello World Debug!" <<std::endl;
-    #endif
+#include <iostream>
+
+void hello() {
+    std::cout << "Hello,World,New!" << std::endl;
 }
