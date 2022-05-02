@@ -9,6 +9,7 @@ class HelloTestConan(ConanFile):
         cmake = CMake(self)
         cmake.configure()
         cmake.build()
+        #some commment
 
     def imports(self):
         self.copy("*.dll", dst="bin", src="bin")
